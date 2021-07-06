@@ -6,7 +6,7 @@ int_num = int(num)
 check = input ("Enter a number: ")
 int_check = int(check)
 
-num2 = num % check
+num2 = int_num % int_check
 int_num2 = int(num2)
 
 
