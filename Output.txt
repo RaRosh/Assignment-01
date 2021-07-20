@@ -1,0 +1,39 @@
+
+
+$ FanControlDetails
+
+
+ Fan control Input references
+--------------------------------------------------------------------------------                                                                                                             -----------------
+ Sled |  PWM From Sled | SC-BMC COMM STAT | GET PWM Command STAT | SLED_PWR_STAT                                                                                                              | SLED_MISMATCH
+    1 |              0 |          COMM_OK |              COMM_OK |           OFF                                                                                                              |         Match
+    4 |              0 |          COMM_OK |              COMM_OK |           OFF                                                                                                              |         Match
+
+
+Inlet Temperature: 25
+No HDD Detected: NO BP
+Fanzone1 PWM from fantable: 19
+Fanzone2 PWM from fantable: 19
+Final_pwm: Fan_Zone1 | Fan_Zone2
+                  20 |        20
+
+Fan_tach Present MAP (1-10)-> [PPPPPPPP--]
+No. of Fan Tachs Present-> 8
+All Fan RPM values->     tach[1-2]: 3000 | 3420          tach[3-4]: 2940 | 3420
+                         tach[5-6]: 2940 | 3420          tach[7-8]: 2940 | 3420
+                         tach[9-10]: 0 | 0
+
+Fan Failure-> 5th Fan FAILURE | No BP: 5th fan is not supported
+Fan_Mismatch-> Match
+
+Sled_Config-> Half Width
+Fan_Control_Mode-> Closed Loop
+
+Fan_Table for FAN_ZONE[1]->  A (Normal)
+Fan_Table for FAN_ZONE[2]->  A (Normal)
+
+Manual PWM SET FAN_ZONE1 -> NO
+Manual PWM SET FAN_ZONE2 -> NO
+Manual PWM SET 40MM_FAN -> NO
+
+
